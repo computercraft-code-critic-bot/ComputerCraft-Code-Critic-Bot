@@ -11,20 +11,6 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile ('net.dv8tion:JDA:VERSION') {
-        exclude module: 'opus-java'
-    }
-}
-version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
+    compile 'net.dv8tion:JDA:3.8.1_454'
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
