@@ -1,4 +1,4 @@
 [submodule "CCEmuX"]
 	path = CCEmuX
-	url = https://github.com/lupus590/CCEmuX.git
+	url = https://github.com/computercraft-code-critic-bot/CCEmuX.git
 	branch = revival
