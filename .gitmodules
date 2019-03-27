@@ -1,0 +1,4 @@
+[submodule "CCEmuX"]
+	path = CCEmuX
+	url = https://github.com/lupus590/CCEmuX.git
+	branch = revival
