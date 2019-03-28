@@ -78,6 +78,14 @@ fabric.properties
 # .idea/misc.xml
 # *.ipr
 
+#BEGIN EveryOS
+### Eclipse ###
+.settings/
+bin/
+.project
+.classpath
+#END EveryOS
+
 # Sonarlint plugin
 .idea/sonarlint
 

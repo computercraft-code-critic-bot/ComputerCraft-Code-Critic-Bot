@@ -1,11 +1,11 @@
+package lupus509.c4bot.main;
 //takes discord message as input and strips out everything that is not in code tags
 
 public class CodeFilter {
 
-    public static string filter(string rawMessage)
+    public static String filter(String rawMessage)
     {
-        //todo
-        string code = rawMessage;
+        String code = rawMessage;
 
         return code;
     }
