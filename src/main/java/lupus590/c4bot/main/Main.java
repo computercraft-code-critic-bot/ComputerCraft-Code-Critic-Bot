@@ -1,4 +1,4 @@
-package lupus509.c4bot.main;
+package lupus590.c4bot.main;
 import java.io.File;
 
 import net.dv8tion.jda.core.JDA;
