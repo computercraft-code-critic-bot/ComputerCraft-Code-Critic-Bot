@@ -1,1 +1,5 @@
 use CCEmuX to run code?
+
+if a user posts links to pastebin or github then we download the code from these places and then critic it as if the user had posted it via discord
+
+How to handle unknown APIs? (E.G. APIs which are not build in to CC or in the github repo)
