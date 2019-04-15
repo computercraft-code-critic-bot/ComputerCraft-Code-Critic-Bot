@@ -1,4 +1,4 @@
-package lupus590.c4bot.main;
+package filters;
 //takes discord message as input and strips out everything that is not in code tags
 
 public class CodeFilter {

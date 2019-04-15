@@ -1,4 +1,4 @@
-package lupus590.c4bot.main;
+package listeners;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;

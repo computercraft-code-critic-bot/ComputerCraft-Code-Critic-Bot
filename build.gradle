@@ -1,9 +1,17 @@
-version '1.0-SNAPSHOT'
+buildscript {
 
-apply plugin: 'java'
+}
+
+plugins {
+	id 'com.github.johnrengelman.shadow' version '2.0.1'
+	id 'java'
+}
+
+version '0.0.1-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
+allprojects {
 repositories {
     mavenCentral()
     jcenter()
@@ -11,14 +19,28 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'net.dv8tion:JDA:3.8.1_454'
+    implementation 'net.dv8tion:JDA:3.8.1_454'
+    implementation files('CCEmuX/build/libs/CCEmuX-1.0.0-cct.jar')
+    file('CCEmuX/build/libs/CCEmuX-1.0.0-cct.jar')
 }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'java'
 
 jar {
   manifest {
     attributes(
-    	"Class-Path": configurations.compile.collect { it.getName() }.join(' '),
+    	//"Class-Path": configurations.compile.collect { it.getName() }.join(' '),
+    	//"Class-Path": '../../CCEmuX/build/libs/CCEmuX-1.0.0-cct.jar',
+    	//"Class-Path": "com.github.jengelman.gradle.plugins:shadow:2.0.1",
     	"Main-Class": "lupus590.c4bot.main.Main"
     )
   }
 }
+
+shadowJar {
+   classifier = null
+}
+
+//Thanks to squiddev
