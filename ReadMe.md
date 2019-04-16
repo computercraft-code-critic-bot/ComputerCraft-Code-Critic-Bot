@@ -7,7 +7,7 @@ is to evaluate a given ComputerCraft:Tweaked lua script from either discord or p
 evaluate the scripts complexity (Did it use deprecated functions? Did it remember to use the local scope?).
 
 ### License
-[License.txt](License.txt)
+[LICENSE.txt](License.txt)
 
 ### Contributors
 Lupus590
@@ -41,7 +41,8 @@ etc, etc, you get it.
 And YOU!
 
 ### Building and running
-```cd CCEmuX
+```
+cd CCEmuX
 ./gradlew build
 cd ..
 ./gradlew build
