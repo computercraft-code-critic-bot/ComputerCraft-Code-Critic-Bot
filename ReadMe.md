@@ -7,7 +7,7 @@ is to evaluate a given ComputerCraft:Tweaked lua script from either discord or p
 evaluate the scripts complexity (Did it use deprecated functions? Did it remember to use the local scope?).
 
 ### License
-[LICENSE.txt](License.txt)
+[LICENSE.txt](LICENSE.txt)
 
 ### Contributors
 Lupus590
