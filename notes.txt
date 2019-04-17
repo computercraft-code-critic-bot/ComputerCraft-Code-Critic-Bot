@@ -8,3 +8,5 @@ Cloud Catcher for graphics (optimally we would port it to java)
 
 enable mapping of files to files via args
 e.g. #{shell.run("x.lua")#}.|x.lua=@https://pastebin.com/raw/xxx apis/y.lua=#{print("y")#}|
+
+Error traceback (possibly taken from mbs https://github.com/SquidDev-CC/mbs/issues/13 )
